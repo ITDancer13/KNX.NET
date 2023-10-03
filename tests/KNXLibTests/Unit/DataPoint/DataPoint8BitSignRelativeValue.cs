@@ -6,7 +6,7 @@ namespace KNXLibTests.Unit.DataPoint
     [TestFixture]
     internal class DataPoint8BitSignRelativeValue
     {
-        [Category("KNXLib.Unit.DataPoint.8BitSign"), Test]
+        [Category("KNX.NET.Unit.DataPoint.8BitSign"), Test]
         public void DataPoint8BitSignRelativeValuePercentTest()
         {
             string dptType = "6.001";
@@ -35,7 +35,7 @@ namespace KNXLibTests.Unit.DataPoint
             Assert.AreEqual(perc127Bytes, DataPointTranslator.Instance.ToDataPoint(dptType, perc127));
         }
 
-        [Category("KNXLib.Unit.DataPoint.8BitSign"), Test]
+        [Category("KNX.NET.Unit.DataPoint.8BitSign"), Test]
         public void DataPoint8BitSignRelativeValueCountTest()
         {
             string dptType = "6.010";

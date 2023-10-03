@@ -6,7 +6,7 @@ namespace KNXLibTests.Unit.DataPoint
     [TestFixture]
     internal class DataPoint2ByteFloatTemperature
     {
-        [Category("KNXLib.Unit.DataPoint.2ByteFloat"), Test]
+        [Category("KNX.NET.Unit.DataPoint.2ByteFloat"), Test]
         public void DataPoint2ByteFloatTemperatureTest()
         {
             string dptType = "9.001";

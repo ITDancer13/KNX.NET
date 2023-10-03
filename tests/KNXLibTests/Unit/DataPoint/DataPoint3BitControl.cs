@@ -6,7 +6,7 @@ namespace KNXLibTests.Unit.DataPoint
     [TestFixture]
     internal class DataPoint3BitControl
     {
-        [Category("KNXLib.Unit.DataPoint.3BitControl"), Test]
+        [Category("KNX.NET.Unit.DataPoint.3BitControl"), Test]
         public void DataPoint3BitControlDimmingTest()
         {
             string dptType = "3.007";
@@ -35,7 +35,7 @@ namespace KNXLibTests.Unit.DataPoint
             Assert.AreEqual(decr7Bytes, DataPointTranslator.Instance.ToDataPoint(dptType, decr7));
         }
 
-        [Category("KNXLib.Unit.DataPoint.3BitControl"), Test]
+        [Category("KNX.NET.Unit.DataPoint.3BitControl"), Test]
         public void DataPoint3BitControlBlindsTest()
         {
             string dptType = "3.008";

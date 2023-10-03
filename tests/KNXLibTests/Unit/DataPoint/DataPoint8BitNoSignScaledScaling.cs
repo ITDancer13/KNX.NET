@@ -6,7 +6,7 @@ namespace KNXLibTests.Unit.DataPoint
     [TestFixture]
     internal class DataPoint8BitNoSignScaledScaling
     {
-        [Category("KNXLib.Unit.DataPoint.8BitNoSign"), Test]
+        [Category("KNX.NET.Unit.DataPoint.8BitNoSign"), Test]
         public void DataPoint8BitNoSignScaledScalingTest()
         {
             string dptType = "5.001";

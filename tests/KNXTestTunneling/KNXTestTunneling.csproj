@@ -41,9 +41,9 @@
     <Compile Include="TestTunneling.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\KNXLib\KNXLib.csproj">
-      <Project>{CD1911AD-1967-40CB-A1C3-EC2FA562872B}</Project>
-      <Name>KNXLib</Name>
+    <ProjectReference Include="..\..\src\KNX.NET\KNX.NET.csproj">
+      <Project>{cd1911ad-1967-40cb-a1c3-ec2fa562872b}</Project>
+      <Name>KNX.NET</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

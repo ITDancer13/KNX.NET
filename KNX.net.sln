@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KNXLib", "src\KNXLib\KNXLib.csproj", "{CD1911AD-1967-40CB-A1C3-EC2FA562872B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KNX.NET", "src\KNX.NET\KNX.NET.csproj", "{CD1911AD-1967-40CB-A1C3-EC2FA562872B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KNXTestRouting", "tests\KNXTestRouting\KNXTestRouting.csproj", "{042C5633-24D9-47FB-AFA6-92A5108BA7C8}"
 EndProject
@@ -14,12 +14,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3F2D2127-9AC6-4E02-BA07-B860F4A06164}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B89118A5-8F45-45BA-863D-7865C523791F}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "notes", "notes", "{2DA39BD6-01AA-49A3-A16A-5A7618D55FE5}"
-	ProjectSection(SolutionItems) = preProject
-		notes\BUILD_WEBSITE.txt = notes\BUILD_WEBSITE.txt
-		notes\DEPLOY_NUGET_PACKAGE.txt = notes\DEPLOY_NUGET_PACKAGE.txt
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

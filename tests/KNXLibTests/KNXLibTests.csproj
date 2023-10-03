@@ -72,9 +72,9 @@
     <Folder Include="Integration\Routing\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\KNXLib\KNXLib.csproj">
+    <ProjectReference Include="..\..\src\KNX.NET\KNX.NET.csproj">
       <Project>{cd1911ad-1967-40cb-a1c3-ec2fa562872b}</Project>
-      <Name>KNXLib</Name>
+      <Name>KNX.NET</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
